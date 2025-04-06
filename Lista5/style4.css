@@ -1,0 +1,24 @@
+
+
+.pai{
+    background-color: rgb(225, 204, 245);
+    height: 400px;
+}
+
+.filho1{
+    background-color: rgb(235, 211, 255);
+    height: 30%;
+    width: 30%;
+    float: left;
+    margin:5rem 4rem;
+    border: 15px solid rgb(226, 82, 190);
+}
+
+.filho{
+    background-color: rgb(253, 204, 253);
+    height: 30%;
+    width: 30%;
+    float: left;
+    margin:5rem 4rem;
+    border: 15px solid rgb(166, 8, 240);
+}

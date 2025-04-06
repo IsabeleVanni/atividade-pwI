@@ -1,0 +1,12 @@
+#link1:hover{
+    color: rgb(255, 0, 200);
+    font-size: large;
+}
+
+#link2{
+    color: rgb(0, 0, 0);
+}
+
+#Link3:visited{
+color: brown;
+}
