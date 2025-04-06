@@ -1,0 +1,208 @@
+/* Reset de margens e paddings para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cor de fundo e tipografia */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    max-width: 3000px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(https://media.istockphoto.com/id/1202357316/pt/vetorial/vector-dark-violet-abstract-geometric-textured-background-color-dynamic-radial-waves-with.jpg?s=612x612&w=0&k=20&c=5SjHzstkUk-TLHqi_52ivnkf4YVPHipk40WOPsSMs5w=);
+    padding: 20px 0;
+    text-align: center;
+    background-size: cover;
+
+}
+
+header:hover{
+    background-image: url(https://i.pinimg.com/originals/87/e2/90/87e290f16c50bb89a4234219c1202e6c.jpg) ;
+    background-size: cover;
+}
+
+
+header h1{
+    font-size: 2.5rem;
+}
+header p{
+    font-size: 1.5rem;
+}
+
+.about{
+    padding: 50px 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.about .container{
+
+justify-content: space-between;
+align-items: center;
+}
+
+.profile img{
+    width: 100px;
+   height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 5px rgb(139, 0, 139);
+}
+
+.description{
+    height: 200x;
+}
+.description h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.description p{
+    font-size: 1.1em;
+    line-height: 1.7;
+}
+
+/* Habilidades */
+
+
+.skills h2{
+    background-color: rgb(59, 0, 94);
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.skills h2:hover{
+    background-image: url(https://i.pinimg.com/originals/87/e2/90/87e290f16c50bb89a4234219c1202e6c.jpg) ;
+
+}
+
+.skill-list{
+    text-align: center;
+}
+
+.skill{
+    padding: 50px 0;
+    display: inline-block;
+    background-image: url(https://media.istockphoto.com/id/1202357316/pt/vetorial/vector-dark-violet-abstract-geometric-textured-background-color-dynamic-radial-waves-with.jpg?s=612x612&w=0&k=20&c=5SjHzstkUk-TLHqi_52ivnkf4YVPHipk40WOPsSMs5w=) ;
+    padding: 10px 20px;
+    background-size: cover;
+    margin: 50px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    background-repeat: no-repeat;
+}
+   
+.skill:hover{
+    background-image: url(https://i.pinimg.com/originals/87/e2/90/87e290f16c50bb89a4234219c1202e6c.jpg) ;
+}
+
+.skill-list:hover{   
+    background-size: cover;
+}
+
+/* Projetos */
+
+.projects h2{
+   
+    background-color: rgb(59, 0, 94);
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.projects h2:hover{
+    background-image: url(https://i.pinimg.com/originals/87/e2/90/87e290f16c50bb89a4234219c1202e6c.jpg) ;
+}
+
+.project{
+    display: inline-block;
+    width: 40%;
+    margin: 10px 2.5%;
+    padding: 30px;
+    background-image: url(https://media.istockphoto.com/id/1202357316/pt/vetorial/vector-dark-violet-abstract-geometric-textured-background-color-dynamic-radial-waves-with.jpg?s=612x612&w=0&k=20&c=5SjHzstkUk-TLHqi_52ivnkf4YVPHipk40WOPsSMs5w=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+   
+}
+
+.project:hover{
+    background-image: url(https://i.pinimg.com/originals/87/e2/90/87e290f16c50bb89a4234219c1202e6c.jpg);
+}
+
+.project h3{
+    font-size: 1.5em;
+}
+.project p{
+    font-size: 1.1em;
+    
+}
+
+/* Contato */
+
+.contact{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    background-color: rgb(59, 0, 94);
+}
+
+.contact h2:hover{
+    background-image: url(https://i.pinimg.com/originals/87/e2/90/87e290f16c50bb89a4234219c1202e6c.jpg);
+}
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(80, 0, 112);
+    padding: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+input textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(190, 130, 247);
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(59, 0, 94);;
+}
+
+/* Rodapé */
+
+footer{
+    background-color: rgb(80, 0, 112);;
+    text-align: center;
+}
