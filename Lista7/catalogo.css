@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(237, 219, 255);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Cabeçalho */
+
+header {
+    background-image: url(https://img.freepik.com/premium-vector/abstract-vector-3d-background-with-bends-wave_395079-9247.jpg);
+    padding: 20px;
+}
+
+
+header h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serifs;
+    color: rgb(212, 175, 247);
+    font-size: 250%;
+}
+
+header:hover {
+    background-image: url(https://img.freepik.com/fotos-premium/parafuso-de-relampago-macico-com-galhos-isolados-no-fundo-preto-parafuso-de-relampago-ramificado-parafuso-eletrico_301558-1122.jpg?w=740);
+}
+
+/* Produtos */
+
+.container {
+    align-items: center;
+    margin: 100px;
+    display: flex;
+    padding: 30px 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    width: 90%;
+    max-width: 2000px;
+    background-color: rgb(227, 198, 255);
+}
+
+.container:hover {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.container h2 {
+    color: aliceblue;
+}
+
+.container p {
+    color: aliceblue;
+}
+
+.container span {
+    color: aliceblue;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgb(188, 132, 241);
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    gap: 10px;
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgb(104, 2, 145);
+
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card button {
+    width: 100%;
+    padding: 10px 100px;
+    background-color: rgb(83, 0, 104);
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-image: url(https://img.freepik.com/fotos-premium/parafuso-de-relampago-macico-com-galhos-isolados-no-fundo-preto-parafuso-de-relampago-ramificado-parafuso-eletrico_301558-1122.jpg?w=740);
+}
+
+.item1 {
+    flex-grow: 2;
+}
+
+.item2 {
+    flex-shrink: 0;
+}
+
+.item3 {
+    flex-basis: 300px;
+}
+
+.item4 {
+    align-self: flex-end;
+}
+
+footer {
+    color: aliceblue;
+    background-color: rgb(83, 0, 104);
+    text-align: center;
+}
+
+.container1 {
+    background-image: url(https://img.freepik.com/premium-vector/abstract-vector-3d-background-with-bends-wave_395079-9247.jpg);
+background-color:  rgb(83, 0, 104);
+    text-align: center;
+    align-items: center;
+}
+
+.container1 h2{
+    color: aliceblue;
+}
+
+.container1 label{
+    color: aliceblue;
+}
+
+.container1:hover{
+    background-image: url(https://img.freepik.com/fotos-premium/parafuso-de-relampago-macico-com-galhos-isolados-no-fundo-preto-parafuso-de-relampago-ramificado-parafuso-eletrico_301558-1122.jpg?w=740);
+}
+
+
+.container1 button{
+background-color: rgb(0, 0, 0);
+color: aliceblue;
+padding: 10px 10px;
+border-radius: 10px;
+}
+
+.container1 button:hover{
+    background-color: rgb(66, 0, 128);
+}
